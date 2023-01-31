@@ -4,7 +4,9 @@
   "description": "Serial and non-periodic publication of the Mathematics content given at the ESO and Baccalaureate levels, whose objective is resources related to its teaching and learning.",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "docs:dev": "vuepress dev docs",
+    "docs:build": "vuepress build docs"
   },
   "repository": {
     "type": "git",
