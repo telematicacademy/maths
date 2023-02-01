@@ -1,0 +1,18 @@
+{
+  "name": "Telematic-virtual-academic-guide",
+  "version": "0.2.0",
+  "scripts": {
+    "dev": "vuepress dev src",
+    "build": "vuepress build src"
+  },
+  "devDependencies": {
+    "vuepress": "^0.14.11"
+  },
+  "description": "This site provides an explanatory Guide of Telematic, a virtual academia for Maths and Science school support, as well as a FAQ.",
+  "author": "Hasier",
+  "license": "MIT",
+  "dependencies": {
+    "markdown-it-katex": "^2.0.3",
+    "vue-template-compiler": "^2.7.14"
+  }
+}
